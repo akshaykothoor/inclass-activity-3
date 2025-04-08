@@ -7,6 +7,6 @@ nginx:
     repository: nginx
     tag: "1.19.10"
   service:
-    type: NodePort
+    type: LoadBalancer
     port: 80
 
